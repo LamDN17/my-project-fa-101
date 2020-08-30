@@ -1,0 +1,137 @@
+*{margin:0px ; padding:0px}
+
+.container {
+    max-width: 909px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.colorr{
+    width: 25%;
+    margin-left: 65px;
+    margin-top: 103px;
+    margin-bottom: -30rem;
+}
+.colorr p{
+    font-size: 25px;
+    text-align: center;
+    font-family: segoe ui light;
+}
+.colorr .color{
+    width: 75px;
+    height: 75px;
+    margin: 10px auto;
+}
+.colorr .color.color1{
+    background-color: #6eb61d;
+}
+.colorr .color.color2{
+    background-color: #ee3636;
+}
+.colorr .color.color3{
+    background-color: #4e4eeb;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+header hr{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #7d97ad;
+    background-color: #7d97ad;
+    height: 4px;
+    border: 0;
+    font-weight: 10px;
+}
+
+header .logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+header .logo img{
+    width: 80px;
+    height: 57px;
+}
+
+header .word{
+    width: calc(100% - 80px);
+    margin:0;
+}
+
+header .word h1{
+    display: block;
+    text-align: right;
+    width: 100%;
+    font-size: 45px;
+    font-family: segoe ui light;
+}
+header .word p{
+    text-align: right;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: segoe ui light;
+}
+
+.image{
+    display: block;
+    width: 100%;
+}
+.image .center{
+    margin-top: 15px;
+    width: 100%;
+    height: 425px;
+}
+
+.title h1{
+    font-size: 30px;
+    font-weight: 300px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: segoe ui light;
+
+}
+
+.topcuoi{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: segoe ui light;
+}
+
+.topcuoi .grass{
+    text-align: center;
+    font-size: 16px;
+    width: 280px;
+}
+.topcuoi .grass img{
+    width: 280px;
+    height: 200px;
+}
+.topcuoi .abyss{
+    text-align: center;
+    font-size: 16px;
+    width: 280px;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+.topcuoi .abyss img{
+    width: 280px;
+    height: 200px;
+}
+.topcuoi .sea{
+    text-align: center;
+    font-size: 16px;
+    width: 280px;
+}
+.topcuoi .sea img{
+    width: 280px;
+    height: 200px;
+}
